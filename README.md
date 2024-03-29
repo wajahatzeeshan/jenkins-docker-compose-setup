@@ -1,6 +1,8 @@
 # Jenkins Tutorial Files
 
-- start jenkins, use `docker-compose up -d node`
+### Starting the containers
+
+- to start jenkins, use `docker-compose up -d node`
 
 - If you prefer to build images yourself, append `-f build-docker-compose.yaml` after `docker-compose`. For example, to build the `node` tutorial Jenkins instance, use: `docker compose -f build-docker-compose.yaml up -d node`.
 
