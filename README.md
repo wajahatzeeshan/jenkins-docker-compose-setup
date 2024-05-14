@@ -14,5 +14,5 @@
 ### Clean Up Instructions
 
 - To stop and remove running containers, use `docker compose down`.
-- If you encounter a `Resource is still in use` warning, use the `--remove-orphans` option which would give `docker compose down --remove-orphans`.
-- To remove the created volumes (should you need to restart from scratch), add the `-v` option which would give `docker compose down -v`.
+- If you encounter a `Resource is still in use` warning, use the `--remove-orphans` option which would give `docker-compose down --remove-orphans`.
+- To remove the created volumes (should you need to restart from scratch), add the `-v` option which would give `docker-compose down -v`.
